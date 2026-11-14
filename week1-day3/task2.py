@@ -15,8 +15,6 @@ df1 = pd.DataFrame(data)
 df1.to_csv("employees.csv", index=False)
 
 df = pd.read_csv("employees.csv")
-
-
 chennai = df.loc[df["city"] == "Chennai", "name"]
 
 high_salary = df[df["salary"] > 50000]
