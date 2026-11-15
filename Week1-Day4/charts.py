@@ -2,13 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Read employee data from CSV
 df = pd.read_csv("employees.csv")
-
-# --------------------------------
-# 1. BAR CHART - Average Salary
-# per Department
-# --------------------------------
 
 avg_salary = df.groupby("department")["salary"].mean()
 
@@ -20,7 +14,6 @@ plt.title("Average Salary per Department")
 plt.xlabel("Department")
 plt.ylabel("Average Salary")
 
-# Display values on bars
 for bar in bars:
     plt.text(
         bar.get_x() + bar.get_width() / 2,
@@ -34,11 +27,6 @@ plt.tight_layout()
 plt.savefig("bar_chart.png")
 plt.show()
 
-
-# --------------------------------
-# 2. HISTOGRAM - Salary Distribution
-# --------------------------------
-
 plt.figure(figsize=(8, 5))
 
 plt.hist(df["salary"], bins=5, color="orange", edgecolor="black")
@@ -50,12 +38,6 @@ plt.ylabel("Frequency")
 plt.tight_layout()
 plt.savefig("histogram.png")
 plt.show()
-
-
-# --------------------------------
-# 3. SCATTER PLOT - ID vs Salary
-# Coloured by Department
-# --------------------------------
 
 plt.figure(figsize=(8, 5))
 
@@ -77,11 +59,6 @@ plt.tight_layout()
 plt.savefig("scatter_plot.png")
 plt.show()
 
-
-# --------------------------------
-# 4. LINE CHART - Monthly Sales
-# --------------------------------
-
 months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
 sales = [12, 15, 14, 18, 22, 25]
 
@@ -102,6 +79,5 @@ plt.ylabel("Sales")
 plt.tight_layout()
 plt.savefig("line_chart.png")
 plt.show()
-
 
 print("All 4 charts saved successfully!")
