@@ -7,8 +7,6 @@ from typing import List, Optional, Union
 
 import openpyxl
 import fitz
-
-# Configure logging
 logging.basicConfig(
     level=logging.ERROR,
     format="%(levelname)s - %(message)s"
@@ -17,9 +15,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 BASE_DIR = Path(__file__).parent
-
-
-# Read employees CSV
 def read_employees(path: Path) -> List[dict]:
     employees: List[dict] = []
 
@@ -31,15 +26,9 @@ def read_employees(path: Path) -> List[dict]:
             employees.append(row)
 
     return employees
-
-
-# Write employees JSON
 def write_json(path: Path, data: List[dict]) -> None:
     with path.open("w", encoding="utf-8") as file:
         json.dump(data, file, indent=4)
-
-
-# Write high earners CSV
 def write_high_earners(
     path: Path,
     employees: List[dict]
@@ -61,8 +50,6 @@ def write_high_earners(
 
     return len(high_earners)
 
-
-# Create Excel file
 def create_salary_excel(
     path: Path,
     employees: List[dict]
@@ -85,9 +72,6 @@ def create_salary_excel(
     workbook.save(path)
 
     return read_salary_excel(path)
-
-
-# Read Excel file
 def read_salary_excel(path: Path) -> int:
     workbook = openpyxl.load_workbook(path, data_only=True)
     sheet = workbook.active
@@ -98,7 +82,6 @@ def read_salary_excel(path: Path) -> int:
     return len(rows)
 
 
-# Extract PDF text
 def extract_pdf_text(path: Path) -> str:
     document = fitz.open(path)
 
@@ -113,7 +96,6 @@ def extract_pdf_text(path: Path) -> str:
         document.close()
 
 
-# Read file with exception handling
 def read_file(path: Path) -> Optional[dict]:
     try:
         with path.open("r", encoding="utf-8") as file:
@@ -128,7 +110,6 @@ def read_file(path: Path) -> Optional[dict]:
     return None
 
 
-# Find employee by name
 def find_employee(
     name: str,
     employees: List[dict]
@@ -140,13 +121,9 @@ def find_employee(
 
     return None
 
-
-# Demonstrate Union type hint
 def format_employee_id(value: Union[int, str]) -> str:
     return str(value)
 
-
-# Main function
 def main() -> None:
 
     employees_path = BASE_DIR / "employees.csv"
