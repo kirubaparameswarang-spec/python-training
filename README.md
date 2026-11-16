@@ -1,3 +1,3 @@
 # AI Training Week 1
 
-This repository contains Python chart visualizations.
+This project contains four charts using Matplotlib.
