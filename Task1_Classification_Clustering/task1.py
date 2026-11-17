@@ -31,23 +31,8 @@ clusters = kmeans.fit_predict(X)
 
 cluster_sizes = np.bincount(clusters)
 
-#print("\n--- KMEANS CLUSTERING RESULTS ---")
 print("KMeans cluster sizes:", cluster_sizes.tolist())
 
-# 5. Compare clusters with actual species
-#print("\n--- CLUSTER VS ACTUAL SPECIES ---")
-
-#for i in range(3):
-    #print(f"\nCluster {i}:")
-    #for j in range(3):
-        #count = np.sum((clusters == i) & (y == j))
-        #print(f"{iris.target_names[j]}: {count}")
-
-# 6. Observations
-#print("\n--- OBSERVATIONS ---")
-#print("1. KMeans groups similar flowers based on their features.")
-#print("2. Setosa is generally separated clearly from other species.")
-#print("3. Versicolor and Virginica have some overlapping features.")
 
 # 7. Supervised vs Unsupervised
 #print("\n--- SUPERVISED VS UNSUPERVISED ---")
