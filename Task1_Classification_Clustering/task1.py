@@ -32,9 +32,3 @@ clusters = kmeans.fit_predict(X)
 cluster_sizes = np.bincount(clusters)
 
 print("KMeans cluster sizes:", cluster_sizes.tolist())
-
-
-# 7. Supervised vs Unsupervised
-#print("\n--- SUPERVISED VS UNSUPERVISED ---")
-#print("1. Logistic Regression needs labelled data to learn flower species.")
-#print("2. KMeans does not need labelled data because it groups flowers by similarity.")
