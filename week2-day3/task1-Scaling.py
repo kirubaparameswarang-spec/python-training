@@ -1,15 +1,3 @@
-"""
-Task - 2: Scaling
-Folder: week2-day3
-File: task1-Scaling.py
-
-Requirements:
-- StandardScaler on age and income; verify mean ~0 and standard deviation ~1.
-- MinMaxScaler; verify values are in the range 0 to 1.
-- Compare KNN and Decision Tree accuracy with and without scaling.
-- Fit scalers on training data only to prevent data leakage.
-- Bonus: compare RobustScaler when outliers are present.
-"""
 
 import numpy as np
 import pandas as pd
@@ -20,11 +8,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
-
-
-# ---------------------------------------------------------------------
-# 1. StandardScaler and MinMaxScaler on age and income
-# ---------------------------------------------------------------------
 print("=" * 65)
 print("1. SCALING AGE AND INCOME")
 print("=" * 65)
@@ -35,7 +18,6 @@ people = pd.DataFrame({
     "income": [18000, 22000, 28000, 35000, 48000, 62000, 85000, 110000]
 })
 
-# Split before fitting either scaler. Only training rows are used by fit().
 age_income_train, age_income_test = train_test_split(
     people, test_size=0.25, random_state=42
 )
@@ -80,10 +62,6 @@ print(minmax_train_df.max().round(6))
 print("Note: transformed test values can fall outside 0 to 1 if they")
 print("are beyond the minimum or maximum values seen in training.")
 
-
-# ---------------------------------------------------------------------
-# 2. Load breast cancer dataset and split before scaling
-# ---------------------------------------------------------------------
 print("\n" + "=" * 65)
 print("2. KNN AND DECISION TREE: WITH VS WITHOUT SCALING")
 print("=" * 65)
@@ -92,7 +70,6 @@ cancer = load_breast_cancer()
 X = cancer.data
 y = cancer.target
 
-# Split first. The test set must not be used to fit the scaler.
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y,
@@ -101,15 +78,10 @@ X_train, X_test, y_train, y_test = train_test_split(
     stratify=y
 )
 
-# StandardScaler is fitted ONLY on training data.
 cancer_scaler = StandardScaler()
 X_train_scaled = cancer_scaler.fit_transform(X_train)
 X_test_scaled = cancer_scaler.transform(X_test)
 
-
-# ---------------------------------------------------------------------
-# 3. K-Nearest Neighbors (KNN)
-# ---------------------------------------------------------------------
 knn_unscaled = KNeighborsClassifier(n_neighbors=5)
 knn_unscaled.fit(X_train, y_train)
 knn_accuracy_unscaled = knn_unscaled.score(X_test, y_test)
@@ -122,10 +94,6 @@ print("\nKNN accuracy:")
 print(f"KNN without scaling: {knn_accuracy_unscaled:.2f}")
 print(f"KNN with scaling:    {knn_accuracy_scaled:.2f}")
 
-
-# ---------------------------------------------------------------------
-# 4. Decision Tree
-# ---------------------------------------------------------------------
 tree_unscaled = DecisionTreeClassifier(random_state=42)
 tree_unscaled.fit(X_train, y_train)
 tree_accuracy_unscaled = tree_unscaled.score(X_test, y_test)
@@ -138,10 +106,6 @@ print("\nDecision Tree accuracy:")
 print(f"Decision Tree without scaling: {tree_accuracy_unscaled:.2f}")
 print(f"Decision Tree with scaling:    {tree_accuracy_scaled:.2f}")
 
-
-# ---------------------------------------------------------------------
-# 5. Bonus: RobustScaler with outliers
-# ---------------------------------------------------------------------
 print("\n" + "=" * 65)
 print("3. BONUS: ROBUSTSCALER WITH OUTLIERS")
 print("=" * 65)
@@ -161,10 +125,6 @@ print(pd.DataFrame(outlier_standard, columns=["age", "income"]).round(2))
 print("\nRobustScaler result:")
 print(pd.DataFrame(outlier_robust, columns=["age", "income"]).round(2))
 
-
-# ---------------------------------------------------------------------
-# 6. Accuracy comparison chart
-# ---------------------------------------------------------------------
 labels = ["KNN", "Decision Tree"]
 without_scaling = [knn_accuracy_unscaled, tree_accuracy_unscaled]
 with_scaling = [knn_accuracy_scaled, tree_accuracy_scaled]
@@ -184,10 +144,6 @@ plt.tight_layout()
 plt.savefig("scaling_accuracy_comparison.png", dpi=300)
 plt.show()
 
-
-# ---------------------------------------------------------------------
-# 7. Concepts and conclusion
-# ---------------------------------------------------------------------
 print("\n" + "=" * 65)
 print("4. CONCEPTS AND CONCLUSION")
 print("=" * 65)
