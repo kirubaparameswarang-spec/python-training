@@ -18,14 +18,10 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import GridSearchCV, train_test_split
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 
-
-# Keep all generated submission files beside this script.
 BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = BASE_DIR / "decision_tree_outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-
-# 1. Load the Wine dataset and split it into training and testing data.
 wine = load_wine()
 X = pd.DataFrame(wine.data, columns=wine.feature_names)
 y = wine.target
@@ -45,7 +41,6 @@ print(f"Training samples: {len(X_train)}")
 print(f"Testing samples : {len(X_test)}")
 
 
-# 2. Train and compare Gini and Entropy decision trees.
 print("\n1. COMPARISON: GINI VS ENTROPY")
 
 criterion_results = []
@@ -67,8 +62,6 @@ for criterion in ["gini", "entropy"]:
 criterion_df = pd.DataFrame(criterion_results)
 criterion_df.to_csv(OUTPUT_DIR / "criterion_comparison.csv", index=False)
 
-
-# 3. Tune max_depth and min_samples_leaf using cross-validation.
 print("\n2. HYPERPARAMETER TUNING")
 
 parameter_grid = {
@@ -109,7 +102,6 @@ tuning_df = pd.DataFrame(grid_search.cv_results_)[
 tuning_df.to_csv(OUTPUT_DIR / "hyperparameter_tuning_results.csv", index=False)
 
 
-# 4. Plot the tuned decision tree, showing at most 3 levels of depth.
 print("\n3. DECISION TREE PLOT")
 
 plt.figure(figsize=(22, 12))
@@ -131,8 +123,6 @@ plt.close()
 
 print(f"Tree image saved to: {tree_image_path}")
 
-
-# 5. Explain the root split and the next split on its left branch.
 def describe_split(tree_model, node_id, split_label):
     tree = tree_model.tree_
 
@@ -167,8 +157,6 @@ if left_child >= 0:
 else:
     print("Second split: the root is already a leaf for this fitted tree.")
 
-
-# 6. Print and save the five most important features.
 print("\n5. TOP 5 FEATURE IMPORTANCES")
 
 importance_df = pd.DataFrame(
@@ -186,8 +174,6 @@ print(top_five.to_string(index=False))
 importance_csv_path = OUTPUT_DIR / "feature_importance_top5.csv"
 top_five.to_csv(importance_csv_path, index=False)
 
-
-# 7. Gini impurity explanation.
 print("\n6. GINI IMPURITY (3 LINES)")
 print("1. Gini impurity measures how mixed the classes are in a tree node.")
 print("2. A value of 0 means the node contains samples from only one class.")
