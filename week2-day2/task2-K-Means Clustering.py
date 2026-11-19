@@ -1,14 +1,3 @@
-# Task 2 - K-Means Clustering
-# Week 2 - Day 2
-#
-# Requirements:
-# 1. Create 300 points with make_blobs(centers=4, random_state=7).
-# 2. Run K-Means for k = 2 to 8 and plot the elbow curve (inertia).
-# 3. Calculate silhouette scores and choose the best k.
-# 4. Plot final clusters with centroids.
-# 5. Apply K-Means to Mall Customers-style data and describe each segment.
-# Bonus: Tune XGBoost max_depth and n_estimators using GridSearchCV.
-
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -22,10 +11,6 @@ from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split, GridSearchCV
 
-
-# ============================================================
-# PART 1: Create 300 points and find the best K
-# ============================================================
 
 print("=" * 60)
 print("PART 1: K-MEANS CLUSTERING WITH MAKE_BLOBS")
@@ -85,10 +70,6 @@ plt.tight_layout()
 plt.show()
 
 
-# ============================================================
-# PART 2: Final clusters and centroids
-# ============================================================
-
 print("\n" + "=" * 60)
 print("PART 2: FINAL CLUSTERS")
 print("=" * 60)
@@ -126,16 +107,11 @@ plt.tight_layout()
 plt.show()
 
 
-# ============================================================
-# PART 3: Mall Customers-style segmentation
-# ============================================================
 
 print("\n" + "=" * 60)
 print("PART 3: MALL CUSTOMERS SEGMENTATION")
 print("=" * 60)
 
-# If Mall_Customers.csv is in the same folder as this script,
-# the script uses it. Otherwise, it creates sample Mall-style data.
 csv_path = "Mall_Customers.csv"
 
 try:
@@ -262,10 +238,6 @@ plt.tight_layout()
 plt.show()
 
 
-# ============================================================
-# PART 4: Bonus - XGBoost GridSearchCV
-# ============================================================
-
 print("\n" + "=" * 60)
 print("BONUS: XGBOOST HYPERPARAMETER TUNING")
 print("=" * 60)
@@ -321,10 +293,6 @@ except ImportError:
 except Exception as error:
     print(f"XGBoost bonus could not run: {error}")
 
-
-# ============================================================
-# CONCEPT SUMMARY
-# ============================================================
 
 print("\n" + "=" * 60)
 print("CONCEPT SUMMARY")
