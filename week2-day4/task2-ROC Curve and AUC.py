@@ -1,18 +1,3 @@
-"""
-Task 2 - ROC Curve and AUC
-Week 2 - Day 4
-
-This script uses the same imbalanced dataset setup as Task 1:
-10,000 samples, 10 features, and approximately 95% class 0 / 5% class 1.
-
-Models:
-1. Logistic Regression (with class_weight="balanced")
-2. Random Forest
-3. XGBoost
-
-Install dependencies if needed:
-    pip install numpy pandas matplotlib scikit-learn xgboost
-"""
 
 from pathlib import Path
 
@@ -44,10 +29,6 @@ except ImportError as error:
     ) from error
 
 
-# ---------------------------------------------------------
-# 1. Create the same imbalanced dataset used in Task 1
-# ---------------------------------------------------------
-
 X, y = make_classification(
     n_samples=10000,
     n_features=10,
@@ -75,10 +56,6 @@ print(f"Testing samples : {len(X_test)}")
 print(f"Class 0 in test : {(y_test == 0).sum()}")
 print(f"Class 1 in test : {(y_test == 1).sum()}")
 
-
-# ---------------------------------------------------------
-# 2. Train the three models
-# ---------------------------------------------------------
 
 positive_count = int((y_train == 1).sum())
 negative_count = int((y_train == 0).sum())
@@ -112,7 +89,6 @@ models = {
     ),
 }
 
-# Store predicted probabilities for the positive class (class 1).
 probabilities = {}
 
 for model_name, model in models.items():
@@ -120,10 +96,6 @@ for model_name, model in models.items():
     probabilities[model_name] = model.predict_proba(X_test)[:, 1]
     print(f"\n{model_name} training completed.")
 
-
-# ---------------------------------------------------------
-# 3. Bonus function: highest precision at minimum recall
-# ---------------------------------------------------------
 
 def best_threshold(y_true, proba, min_recall):
     """
@@ -143,7 +115,6 @@ def best_threshold(y_true, proba, min_recall):
         y_true, proba
     )
 
-    # precision and recall have one more element than thresholds.
     valid_indices = np.where(recall_values[:-1] >= min_recall)[0]
 
     if len(valid_indices) == 0:
@@ -151,8 +122,7 @@ def best_threshold(y_true, proba, min_recall):
             f"No threshold found that achieves recall >= {min_recall:.2f}."
         )
 
-    # Among thresholds meeting the recall requirement, select
-    # the one with the highest precision.
+
     best_index = valid_indices[
         np.argmax(precision_values[valid_indices])
     ]
@@ -163,10 +133,6 @@ def best_threshold(y_true, proba, min_recall):
         float(recall_values[best_index]),
     )
 
-
-# ---------------------------------------------------------
-# 4. Plot all three ROC curves and calculate AUC
-# ---------------------------------------------------------
 
 output_dir = Path(__file__).resolve().parent / "task2_roc_outputs"
 output_dir.mkdir(exist_ok=True)
@@ -224,10 +190,6 @@ plt.savefig(roc_path, dpi=300)
 plt.show()
 
 
-# ---------------------------------------------------------
-# 5. Print the required Model | AUC | F1 comparison table
-# ---------------------------------------------------------
-
 results_df = pd.DataFrame(results)
 results_df["AUC"] = results_df["AUC"].round(4)
 results_df["F1"] = results_df["F1"].round(4)
@@ -240,10 +202,6 @@ print(results_df.to_string(index=False))
 csv_path = output_dir / "model_comparison.csv"
 results_df.to_csv(csv_path, index=False)
 
-
-# ---------------------------------------------------------
-# 6. Plot the Precision-Recall curves
-# ---------------------------------------------------------
 
 plt.figure(figsize=(9, 7))
 
@@ -270,10 +228,6 @@ pr_path = output_dir / "precision_recall_curves.png"
 plt.savefig(pr_path, dpi=300)
 plt.show()
 
-
-# ---------------------------------------------------------
-# 7. Explain F1 vs AUC and the better curve for imbalanced data
-# ---------------------------------------------------------
 
 print("\n" + "=" * 65)
 print("F1 VS AUC - WHEN TO USE")
