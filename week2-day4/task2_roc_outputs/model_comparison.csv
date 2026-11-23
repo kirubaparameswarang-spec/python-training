@@ -1,4 +1,0 @@
-Model,AUC,F1
-Logistic Regression,0.8279,0.2412
-Random Forest,0.9608,0.7598
-XGBoost,0.9538,0.722

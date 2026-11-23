@@ -1,0 +1,1 @@
+# API Client and Webhook Security\n\nInstall dependencies: `pip install requests python-dotenv`\n\nSet `API_KEY` and `WEBHOOK_SECRET` in `.env`, then run:\n\n`python api_client_webhook_security.py`\n\nThe JSONPlaceholder endpoint is public, so the API key is loaded from the environment but is not needed for this GET request. `.env` is excluded from Git by `.gitignore`.\n
