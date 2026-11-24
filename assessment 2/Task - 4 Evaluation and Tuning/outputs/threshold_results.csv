@@ -1,0 +1,2 @@
+Model,Required_Recall,Selected_Threshold,Recall,Precision
+XGBoost,0.75,0.17070459,0.7804878048780488,0.43243243243243246
