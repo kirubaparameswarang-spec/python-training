@@ -1,0 +1,601 @@
+application_date,annual_income,loan_amount,credit_score,employment_type,education_level,property_area,dependents,loan_status
+2022-05-05,41744.0,52798.0,777.0,Business,Graduate,Urban,2,0
+2024-12-19,46309.0,75599.0,534.0,Salaried,Postgraduate,Semiurban,0,1
+2024-07-05,42677.0,111875.0,624.0,Salaried,Postgraduate,Urban,0,1
+2023-09-07,,126630.0,581.0,Business,Graduate,Rural,3+,0
+2023-08-30,110119.0,135432.0,572.0,Salaried,Graduate,Semiurban,1,1
+2025-04-17,18000.0,165605.0,594.0,Salaried,,Rural,1,0
+2022-05-01,43033.0,141452.0,621.0,Salaried,Graduate,Urban,1,1
+2024-09-03,54018.0,260981.0,527.0,Salaried,Postgraduate,Urban,0,0
+2022-10-10,57688.0,120065.0,742.0,Salaried,Graduate,Urban,2,0
+2022-05-12,39953.0,110410.0,,Salaried,Graduate,Rural,0,1
+2024-01-08,18654.0,201893.0,787.0,Self-employed,Graduate,Rural,2,1
+2025-09-27,58712.0,81549.0,741.0,Self-employed,Postgraduate,Urban,1,0
+2024-10-27,126759.0,193951.0,535.0,Salaried,Postgraduate,Semiurban,0,0
+2024-12-01,21086.0,170442.0,505.0,Self-employed,,Urban,0,0
+2024-10-01,78834.0,152307.0,636.0,Salaried,High School,Urban,2,0
+2025-01-05,40917.0,332609.0,658.0,Business,Graduate,Semiurban,0,0
+2023-12-20,47395.0,123008.0,569.0,Salaried,Graduate,Urban,0,0
+2022-06-29,27472.0,411323.0,770.0,Self-employed,Graduate,Urban,2,0
+2025-03-21,40784.0,147054.0,695.0,Salaried,High School,Semiurban,0,0
+2023-09-23,,91614.0,757.0,Self-employed,Graduate,Urban,1,0
+2023-12-02,67539.0,167957.0,520.0,Salaried,Graduate,Urban,0,1
+2023-06-04,127105.0,100277.0,782.0,Self-employed,Graduate,Rural,3+,1
+2022-09-13,93674.0,116042.0,556.0,,Graduate,Urban,0,0
+2025-07-21,62411.0,194593.0,646.0,Business,Graduate,Rural,0,1
+2024-12-30,127920.0,208984.0,643.0,Salaried,Graduate,Urban,0,1
+2024-06-20,62408.0,123010.0,784.0,Self-employed,Postgraduate,Urban,0,1
+2023-07-18,77296.0,253808.0,582.0,Self-employed,,Urban,0,0
+2025-02-25,41643.0,273999.0,569.0,Business,,Semiurban,0,0
+2024-02-03,,310623.0,606.0,Salaried,Graduate,Urban,0,0
+2023-09-13,33404.0,206537.0,613.0,Salaried,High School,Rural,1,1
+2023-09-23,84480.0,300602.0,,Salaried,Graduate,Rural,3+,1
+2022-11-15,25641.0,69818.0,545.0,Salaried,Graduate,Semiurban,0,0
+2022-05-09,75380.0,141060.0,565.0,Self-employed,Postgraduate,Semiurban,0,0
+2024-02-16,44141.0,110177.0,653.0,Business,Graduate,Semiurban,3+,1
+2025-05-28,93357.0,171725.0,607.0,Business,High School,Rural,3+,0
+2022-03-31,74086.0,125850.0,625.0,Salaried,Graduate,Urban,2,1
+2025-04-16,133433.0,151029.0,746.0,Self-employed,High School,Semiurban,0,1
+2025-03-04,73271.0,379640.0,569.0,Business,Graduate,Semiurban,1,0
+2023-01-23,20648.0,150787.0,817.0,Business,Postgraduate,Semiurban,0,1
+2024-06-03,47248.0,196066.0,758.0,Salaried,Graduate,Rural,0,0
+2022-08-20,25730.0,146602.0,544.0,Salaried,Graduate,Urban,0,0
+2024-11-27,36862.0,168396.0,596.0,Self-employed,Graduate,Semiurban,1,1
+2024-09-07,112553.0,163196.0,548.0,Salaried,Graduate,Rural,0,0
+2023-05-12,69609.0,199137.0,581.0,Salaried,Postgraduate,Urban,1,0
+2022-04-06,33376.0,274962.0,615.0,Business,,Urban,0,0
+2025-09-20,28070.0,341577.0,528.0,Business,Graduate,Urban,0,0
+2023-09-16,49913.0,187087.0,485.0,Business,Graduate,Urban,2,0
+2025-06-04,,212202.0,642.0,Self-employed,High School,Urban,3+,0
+2024-08-07,33890.0,96966.0,740.0,Salaried,High School,Semiurban,0,0
+2024-12-25,58198.0,156444.0,592.0,Salaried,High School,Urban,1,1
+2024-11-29,92542.0,248483.0,799.0,Salaried,Graduate,Urban,0,0
+2022-09-30,68516.0,240310.0,617.0,Self-employed,Postgraduate,Semiurban,0,0
+2023-05-25,,179015.0,814.0,,Graduate,Rural,2,1
+2023-10-16,57954.0,242529.0,567.0,,,Rural,0,1
+2023-11-28,51002.0,202976.0,680.0,Salaried,High School,Urban,1,0
+2022-03-03,61552.0,279327.0,763.0,Self-employed,Graduate,Urban,1,1
+2024-02-05,119243.0,185389.0,501.0,Salaried,Postgraduate,Urban,0,0
+2022-08-05,18000.0,138682.0,825.0,Salaried,Graduate,Semiurban,0,0
+2024-11-06,35415.0,189308.0,615.0,Salaried,Postgraduate,Rural,0,1
+2024-08-14,67846.0,50000.0,664.0,Salaried,Postgraduate,Semiurban,3+,0
+2025-07-15,20540.0,193358.0,713.0,Business,High School,Semiurban,1,0
+2024-11-08,110390.0,50000.0,718.0,Salaried,Graduate,Urban,1,1
+2023-05-29,60030.0,74940.0,488.0,Salaried,Postgraduate,Urban,0,0
+2025-09-16,78090.0,199445.0,801.0,Self-employed,Graduate,Urban,1,0
+2023-07-30,35810.0,201771.0,711.0,Self-employed,High School,Urban,0,1
+2023-04-02,76693.0,96462.0,850.0,Salaried,Postgraduate,Urban,1,0
+2025-06-21,88226.0,118132.0,654.0,Salaried,Postgraduate,Semiurban,2,1
+2023-06-03,55719.0,301566.0,707.0,Salaried,Graduate,Rural,1,0
+2022-04-17,55766.0,130900.0,643.0,Self-employed,Graduate,Rural,0,0
+2023-10-20,56879.0,446553.0,810.0,Salaried,High School,Semiurban,0,0
+2025-01-18,30490.0,162614.0,788.0,,Postgraduate,Semiurban,0,1
+2022-09-23,45200.0,195559.0,817.0,Salaried,Graduate,Rural,1,1
+2023-10-11,45076.0,336918.0,667.0,Self-employed,High School,Urban,3+,0
+2022-07-01,60528.0,172640.0,773.0,Salaried,Graduate,Rural,0,1
+2024-08-19,84957.0,103668.0,613.0,Self-employed,Postgraduate,Urban,1,1
+2023-10-28,27386.0,154914.0,651.0,Salaried,Postgraduate,Urban,2,0
+2023-04-08,,160167.0,762.0,Self-employed,Graduate,Urban,0,0
+2022-11-14,110725.0,88068.0,510.0,Salaried,High School,Urban,0,0
+2024-03-01,32566.0,145056.0,743.0,Salaried,Postgraduate,Semiurban,0,0
+2024-07-26,31187.0,116543.0,485.0,Salaried,Postgraduate,Urban,2,0
+2025-08-09,54790.0,246708.0,695.0,Self-employed,Graduate,Rural,1,0
+2023-09-05,77996.0,165310.0,657.0,Business,Graduate,Urban,2,0
+2022-08-13,49330.0,143307.0,653.0,Salaried,Graduate,Semiurban,3+,0
+2025-03-11,101817.0,155161.0,663.0,Salaried,Graduate,Semiurban,2,1
+2024-05-31,78530.0,179945.0,662.0,Business,High School,Urban,3+,0
+2024-09-07,77886.0,214822.0,631.0,Salaried,High School,Urban,2,0
+2022-05-17,,103790.0,647.0,Salaried,High School,Semiurban,3+,1
+2023-03-14,176347.0,101853.0,690.0,Salaried,Postgraduate,Urban,2,0
+2024-12-10,43790.0,267562.0,763.0,Self-employed,High School,Rural,2,1
+2025-03-11,18000.0,135192.0,684.0,Self-employed,High School,Urban,2,1
+2023-09-02,118461.0,86027.0,718.0,Self-employed,Graduate,Semiurban,3+,0
+2025-01-31,38111.0,198733.0,790.0,Business,,Semiurban,1,0
+2025-03-24,52017.0,200489.0,847.0,Salaried,High School,Rural,2,1
+2023-06-27,100735.0,81730.0,520.0,Salaried,Graduate,Semiurban,1,0
+2025-06-11,20308.0,180460.0,744.0,Salaried,Graduate,Semiurban,3+,0
+2023-02-08,,226616.0,563.0,Salaried,Graduate,Semiurban,1,0
+2022-12-02,20319.0,192620.0,553.0,Salaried,Postgraduate,Rural,2,0
+2024-08-13,31673.0,216294.0,774.0,Salaried,High School,Rural,2,0
+2024-06-10,,86516.0,505.0,Salaried,Postgraduate,Semiurban,3+,0
+2022-07-15,65402.0,188899.0,794.0,Self-employed,,Rural,0,0
+2025-03-11,57065.0,142034.0,765.0,Salaried,Postgraduate,Urban,2,0
+2022-10-07,22538.0,130973.0,849.0,Salaried,Graduate,Urban,2,1
+2025-01-31,18000.0,240807.0,727.0,Self-employed,Graduate,Semiurban,3+,1
+2022-01-11,50508.0,316688.0,803.0,Self-employed,Graduate,Urban,3+,0
+2025-01-20,37817.0,364932.0,523.0,Self-employed,Graduate,Rural,1,0
+2025-01-06,63112.0,294097.0,810.0,Self-employed,High School,Rural,1,1
+2024-12-28,72119.0,154913.0,539.0,Self-employed,Postgraduate,Urban,0,0
+2024-07-19,52893.0,190751.0,596.0,Salaried,Graduate,Urban,3+,1
+2023-10-23,,229824.0,527.0,Salaried,Postgraduate,Urban,0,0
+2024-09-14,,171876.0,629.0,Self-employed,Graduate,Rural,2,0
+2023-01-23,65613.0,172619.0,757.0,Salaried,High School,Urban,2,1
+2024-12-29,33271.0,235788.0,579.0,,Graduate,Semiurban,1,0
+2024-02-17,44410.0,158470.0,785.0,Salaried,Graduate,Semiurban,0,1
+2023-10-05,54624.0,117222.0,704.0,Salaried,Graduate,Rural,0,0
+2023-12-09,76979.0,135062.0,713.0,Salaried,Graduate,Urban,3+,0
+2024-03-07,39476.0,216481.0,828.0,Salaried,High School,Rural,1,0
+2022-02-22,65293.0,162974.0,640.0,Self-employed,Graduate,Urban,0,0
+2022-07-15,42353.0,189680.0,607.0,Business,Graduate,Urban,2,0
+2022-12-10,45952.0,220034.0,848.0,Salaried,Postgraduate,Urban,0,0
+2022-06-10,77361.0,137492.0,686.0,Business,High School,Urban,3+,0
+2023-09-08,18000.0,228733.0,708.0,Salaried,Graduate,Urban,0,0
+2024-07-24,24027.0,193007.0,589.0,Business,Graduate,Rural,0,0
+2024-07-05,21694.0,93371.0,559.0,Business,Graduate,Rural,0,0
+2023-10-22,18000.0,311463.0,542.0,Salaried,Graduate,Semiurban,1,0
+2025-04-12,33757.0,129919.0,562.0,Self-employed,Graduate,Semiurban,1,0
+2024-03-02,,77281.0,552.0,Business,Postgraduate,Rural,2,1
+2022-04-21,41911.0,101695.0,757.0,Business,Graduate,Rural,1,0
+2024-12-06,54654.0,102799.0,501.0,Business,Graduate,Semiurban,0,0
+2024-03-15,89239.0,166621.0,713.0,Self-employed,High School,Rural,0,1
+2024-06-07,101745.0,143885.0,832.0,Salaried,Graduate,Rural,0,0
+2024-03-02,47192.0,139864.0,764.0,Self-employed,,Urban,3+,0
+2024-02-15,103205.0,215102.0,629.0,Self-employed,High School,Semiurban,0,0
+2022-05-07,51569.0,189652.0,502.0,Self-employed,Graduate,Urban,3+,0
+2024-02-22,30928.0,187629.0,789.0,Salaried,Graduate,Urban,0,1
+2025-01-17,35351.0,195717.0,481.0,Self-employed,Graduate,Rural,0,1
+2023-03-02,21714.0,214757.0,732.0,Salaried,Graduate,Urban,0,1
+2024-04-23,30077.0,63033.0,728.0,Self-employed,Graduate,Urban,0,0
+2022-02-13,40259.0,138137.0,,Salaried,Graduate,Urban,2,0
+2023-05-02,76265.0,61017.0,754.0,Self-employed,High School,Rural,1,0
+2023-09-04,126301.0,165417.0,545.0,Self-employed,High School,Rural,0,0
+2025-10-07,22921.0,162416.0,,Salaried,Graduate,Rural,2,1
+2022-10-28,60843.0,260534.0,781.0,Salaried,Postgraduate,Urban,2,0
+2023-01-23,27659.0,277739.0,843.0,Salaried,High School,Urban,3+,0
+2023-07-26,63645.0,178305.0,578.0,,Graduate,Urban,3+,0
+2025-10-21,45611.0,129941.0,821.0,Self-employed,Postgraduate,Urban,2,0
+2025-04-09,18000.0,202465.0,818.0,Salaried,Postgraduate,Urban,2,1
+2022-02-18,81680.0,128340.0,765.0,Salaried,Graduate,Urban,2,1
+2022-11-24,35145.0,162653.0,531.0,Salaried,Graduate,Rural,1,0
+2025-02-24,36547.0,253663.0,591.0,Salaried,Graduate,Urban,2,0
+2022-03-23,27218.0,126627.0,731.0,Business,Postgraduate,Semiurban,0,0
+2025-04-12,34206.0,233878.0,850.0,Self-employed,High School,Rural,2,0
+2023-01-29,,220760.0,782.0,Salaried,Postgraduate,Semiurban,3+,0
+2025-07-08,44175.0,105910.0,635.0,Business,,Urban,0,0
+2023-02-16,58733.0,252269.0,567.0,Salaried,Postgraduate,Semiurban,2,0
+2023-09-01,59818.0,222872.0,836.0,Business,High School,Semiurban,3+,1
+2024-07-15,101353.0,170394.0,582.0,Salaried,High School,Rural,0,0
+2022-06-26,40598.0,115492.0,606.0,Self-employed,High School,Rural,1,0
+2024-02-19,21758.0,110565.0,837.0,Business,Graduate,Rural,3+,0
+2023-12-09,88166.0,127778.0,688.0,Salaried,Graduate,Urban,3+,0
+2025-01-02,40851.0,207766.0,578.0,Self-employed,High School,Urban,0,0
+2025-10-26,90493.0,105870.0,481.0,Business,Graduate,Rural,0,0
+2024-07-19,60528.0,198170.0,639.0,Salaried,Graduate,Semiurban,2,1
+2023-07-27,45610.0,93080.0,,Salaried,Postgraduate,Rural,0,0
+2023-07-23,59387.0,148475.0,640.0,Self-employed,Postgraduate,Rural,0,0
+2023-08-09,143352.0,170987.0,739.0,Salaried,Graduate,Semiurban,0,0
+2025-02-13,153636.0,489093.0,573.0,,High School,Urban,0,0
+2023-03-26,50928.0,87571.0,767.0,Salaried,Graduate,Urban,1,0
+2022-08-22,53536.0,315655.0,767.0,Self-employed,Postgraduate,Semiurban,2,0
+2023-04-14,88604.0,174108.0,705.0,Salaried,High School,Semiurban,2,1
+2022-02-01,30788.0,195835.0,766.0,Salaried,Graduate,Rural,2,0
+2022-05-29,58876.0,171658.0,694.0,Self-employed,Postgraduate,Rural,1,0
+2022-05-07,48328.0,198814.0,620.0,Salaried,Postgraduate,Urban,0,0
+2024-12-16,58259.0,151879.0,753.0,Self-employed,Graduate,Urban,0,0
+2024-10-08,30997.0,313114.0,789.0,Salaried,Graduate,Urban,0,1
+2024-09-02,,132533.0,792.0,Business,Graduate,Urban,0,0
+2023-10-09,18000.0,270900.0,559.0,Self-employed,Postgraduate,Urban,0,0
+2024-09-30,26514.0,121788.0,,Salaried,High School,Urban,0,1
+2022-08-14,38091.0,158401.0,481.0,Business,High School,Semiurban,0,0
+2025-06-14,41720.0,100470.0,692.0,Salaried,Graduate,Rural,2,0
+2023-12-03,142269.0,199738.0,691.0,Salaried,High School,Rural,1,1
+2025-08-06,90066.0,311859.0,614.0,Salaried,,Rural,3+,0
+2022-08-02,28878.0,157187.0,848.0,Self-employed,Graduate,Rural,2,1
+2023-11-28,59352.0,148955.0,807.0,Salaried,,Semiurban,1,1
+2024-09-01,,98560.0,494.0,Salaried,Postgraduate,Urban,0,0
+2023-11-25,41923.0,146799.0,557.0,Salaried,Graduate,Urban,1,0
+2023-09-17,54281.0,79479.0,557.0,Salaried,Postgraduate,Semiurban,0,0
+2022-08-21,68909.0,107926.0,812.0,Salaried,Graduate,Rural,1,1
+2023-06-18,40677.0,180242.0,672.0,Salaried,Graduate,Urban,1,0
+2022-12-01,88002.0,294654.0,750.0,Salaried,High School,Semiurban,1,1
+2023-02-27,,576162.0,780.0,Salaried,Postgraduate,Rural,0,0
+2024-08-15,,124996.0,764.0,Self-employed,Postgraduate,Semiurban,2,0
+2024-06-01,204581.0,310483.0,513.0,Salaried,Postgraduate,Semiurban,2,1
+2024-04-30,55420.0,181623.0,532.0,Self-employed,Postgraduate,Semiurban,2,0
+2023-05-22,107825.0,152046.0,626.0,Salaried,Postgraduate,Urban,1,1
+2025-09-05,51551.0,197732.0,605.0,Salaried,High School,Urban,1,0
+2022-05-03,67469.0,167353.0,757.0,Salaried,Postgraduate,Urban,0,1
+2023-04-25,47514.0,171044.0,537.0,,Graduate,Rural,2,0
+2022-06-15,44635.0,135435.0,617.0,Salaried,Graduate,Urban,1,0
+2023-04-20,31929.0,86756.0,567.0,Self-employed,Graduate,Urban,0,0
+2025-09-08,62110.0,81257.0,550.0,Salaried,Graduate,Rural,0,1
+2023-05-28,30689.0,218373.0,544.0,Salaried,Graduate,Urban,3+,0
+2025-06-26,,143700.0,,Self-employed,High School,Semiurban,1,1
+2023-11-25,89046.0,124463.0,,Salaried,High School,Semiurban,1,0
+2024-09-06,59970.0,163379.0,632.0,Salaried,Graduate,Rural,1,0
+2023-10-03,41880.0,232750.0,,Salaried,Postgraduate,Semiurban,1,0
+2023-01-08,62924.0,176515.0,657.0,Salaried,Graduate,Rural,1,1
+2024-12-05,41367.0,121149.0,754.0,Salaried,Graduate,Rural,0,0
+2025-09-18,82006.0,282612.0,799.0,Self-employed,Graduate,Rural,1,0
+2023-01-04,18000.0,331252.0,675.0,Business,Graduate,Urban,2,0
+2024-12-26,40758.0,203323.0,718.0,Salaried,High School,Semiurban,0,1
+2023-01-01,18000.0,252243.0,754.0,Self-employed,Postgraduate,Semiurban,2,1
+2024-09-30,21541.0,284612.0,736.0,Self-employed,High School,Semiurban,0,1
+2025-01-09,,270640.0,529.0,Salaried,Graduate,Urban,2,0
+2023-09-22,80206.0,214560.0,844.0,Self-employed,Postgraduate,Semiurban,2,0
+2024-10-28,33001.0,213044.0,541.0,Self-employed,,Urban,2,0
+2023-01-17,21453.0,205633.0,632.0,Business,Postgraduate,Semiurban,1,0
+2022-04-21,18000.0,99330.0,722.0,Business,Graduate,Rural,3+,0
+2022-05-15,36355.0,223089.0,629.0,Salaried,Postgraduate,Semiurban,1,0
+2023-09-18,185578.0,88423.0,570.0,Salaried,Graduate,Semiurban,2,1
+2025-06-17,62267.0,113826.0,822.0,Salaried,Postgraduate,Urban,2,1
+2022-06-28,36035.0,292612.0,506.0,Salaried,Graduate,Urban,0,0
+2023-10-01,,237542.0,571.0,Salaried,Postgraduate,Semiurban,0,1
+2024-09-12,20774.0,317848.0,848.0,Business,Postgraduate,Urban,1,1
+2022-10-11,41626.0,144026.0,750.0,Salaried,Graduate,Semiurban,0,0
+2024-10-07,51778.0,96905.0,512.0,Salaried,Postgraduate,Semiurban,0,1
+2023-03-05,46754.0,146064.0,759.0,Self-employed,Graduate,Semiurban,1,0
+2025-02-06,75731.0,170402.0,839.0,Salaried,Graduate,Rural,1,1
+2024-03-21,59252.0,168644.0,516.0,Salaried,Postgraduate,Urban,0,0
+2024-02-05,70798.0,271076.0,633.0,Business,Graduate,Rural,2,0
+2022-09-05,33570.0,138334.0,653.0,Salaried,Graduate,Semiurban,1,0
+2023-10-11,,190692.0,528.0,Salaried,High School,Semiurban,2,0
+2025-04-14,120080.0,104310.0,554.0,Salaried,High School,Rural,0,0
+2022-01-28,28751.0,199315.0,544.0,Business,Postgraduate,Rural,1,0
+2024-11-27,30085.0,162983.0,548.0,,Graduate,Urban,0,1
+2023-11-21,102199.0,116144.0,629.0,Salaried,Graduate,Rural,2,0
+2024-10-04,44124.0,146368.0,652.0,Salaried,High School,Semiurban,0,0
+2024-07-17,106096.0,149810.0,568.0,Salaried,Graduate,Semiurban,3+,0
+2023-08-28,38430.0,144124.0,587.0,Business,Postgraduate,Rural,0,0
+2023-03-09,109128.0,361170.0,551.0,Salaried,Postgraduate,Rural,1,0
+2024-05-28,52697.0,155702.0,775.0,Business,High School,Urban,0,0
+2022-07-16,56502.0,145837.0,558.0,Salaried,,Urban,1,0
+2024-03-28,115913.0,63332.0,816.0,Salaried,,Rural,1,1
+2022-05-13,40176.0,108837.0,679.0,Business,Graduate,Urban,0,0
+2024-06-28,29213.0,144584.0,777.0,Salaried,Graduate,Semiurban,0,1
+2024-05-30,38303.0,119535.0,716.0,Salaried,Graduate,Urban,0,0
+2022-04-29,,303085.0,578.0,Business,,Urban,0,0
+2024-11-26,20720.0,151112.0,703.0,Salaried,,Urban,3+,0
+2023-08-06,69606.0,290628.0,581.0,Salaried,Graduate,Urban,1,0
+2025-01-06,36449.0,167337.0,523.0,Business,Graduate,Semiurban,0,0
+2022-02-28,92161.0,165504.0,574.0,Salaried,Postgraduate,Semiurban,3+,0
+2022-09-09,18000.0,156380.0,582.0,Salaried,Graduate,Semiurban,0,0
+2023-11-23,31805.0,163033.0,530.0,Salaried,Graduate,Rural,1,0
+2022-09-21,19389.0,352730.0,488.0,Salaried,Postgraduate,Urban,2,0
+2023-04-07,31119.0,57307.0,830.0,Salaried,Postgraduate,Rural,3+,0
+2024-07-13,56174.0,66125.0,670.0,Self-employed,High School,Semiurban,2,0
+2022-07-22,44419.0,127462.0,629.0,Salaried,Graduate,Rural,1,1
+2024-08-06,42644.0,163822.0,825.0,Self-employed,Graduate,Rural,3+,1
+2022-05-25,44911.0,222025.0,563.0,,Graduate,Urban,0,1
+2022-09-03,54823.0,201368.0,629.0,Salaried,High School,Urban,3+,0
+2024-04-02,28150.0,136911.0,794.0,Salaried,Graduate,Semiurban,2,0
+2025-01-15,72314.0,257447.0,714.0,Self-employed,Graduate,Rural,3+,0
+2022-08-27,70577.0,258742.0,628.0,Salaried,Graduate,Semiurban,0,0
+2023-02-24,60583.0,176809.0,574.0,Salaried,Postgraduate,Semiurban,0,0
+2025-07-19,66576.0,250997.0,493.0,Business,Graduate,Urban,2,0
+2025-10-17,57701.0,184000.0,511.0,Self-employed,Postgraduate,Semiurban,1,0
+2024-03-24,150135.0,126416.0,540.0,Salaried,Postgraduate,Semiurban,1,1
+2023-09-18,46728.0,222797.0,771.0,Business,Postgraduate,Semiurban,3+,0
+2023-05-01,41403.0,171061.0,717.0,Salaried,High School,Urban,1,0
+2024-05-07,32389.0,162853.0,640.0,Salaried,Postgraduate,Urban,0,1
+2024-04-07,27785.0,315789.0,770.0,Salaried,High School,Semiurban,1,0
+2023-02-17,24724.0,54020.0,539.0,Salaried,Graduate,Semiurban,0,0
+2022-02-01,30066.0,85995.0,558.0,Salaried,Postgraduate,Rural,0,1
+2022-08-01,,95399.0,625.0,Self-employed,Graduate,Urban,0,0
+2025-09-03,58916.0,138210.0,820.0,Salaried,Graduate,Semiurban,2,1
+2023-08-09,50419.0,145136.0,,Self-employed,Graduate,Semiurban,2,1
+2023-11-07,32175.0,82595.0,795.0,Business,Postgraduate,Urban,1,0
+2023-10-16,80427.0,104472.0,572.0,Self-employed,Graduate,Urban,0,0
+2024-12-31,73620.0,110483.0,794.0,Self-employed,Graduate,Rural,2,1
+2022-04-01,44900.0,491807.0,506.0,Self-employed,Postgraduate,Rural,2,0
+2022-04-26,34231.0,366145.0,564.0,Business,High School,Rural,3+,0
+2023-01-22,66279.0,135227.0,674.0,Salaried,High School,Semiurban,1,1
+2023-11-13,54360.0,138190.0,498.0,Salaried,Graduate,Rural,2,0
+2024-07-28,22104.0,97038.0,798.0,Salaried,Postgraduate,Urban,1,0
+2023-11-18,47222.0,68964.0,801.0,Salaried,High School,Urban,1,0
+2023-09-10,56620.0,154416.0,680.0,Salaried,High School,Semiurban,3+,1
+2025-08-05,29887.0,103877.0,593.0,Self-employed,High School,Urban,1,0
+2022-08-14,54416.0,156658.0,516.0,Salaried,Postgraduate,Semiurban,1,1
+2024-03-11,22023.0,79214.0,709.0,Business,High School,Rural,0,1
+2024-01-30,102222.0,115510.0,679.0,Salaried,Graduate,Urban,1,0
+2023-10-25,97380.0,174012.0,761.0,Salaried,Postgraduate,Rural,1,0
+2025-02-04,42664.0,191912.0,703.0,Salaried,High School,Rural,2,0
+2023-01-09,59868.0,196391.0,527.0,Salaried,Graduate,Semiurban,1,0
+2025-08-28,18000.0,89839.0,525.0,Salaried,Graduate,Rural,0,0
+2023-04-10,25952.0,239093.0,769.0,Salaried,Postgraduate,Semiurban,3+,1
+2024-02-03,41707.0,113539.0,538.0,Salaried,Graduate,Urban,0,0
+2023-12-30,27182.0,216379.0,828.0,Salaried,Graduate,Urban,3+,0
+2025-04-04,72614.0,161977.0,519.0,Salaried,High School,Urban,0,0
+2023-09-07,147048.0,87608.0,,Salaried,Graduate,Urban,1,1
+2023-02-03,25664.0,141169.0,841.0,Salaried,Postgraduate,Semiurban,1,1
+2022-01-31,30927.0,191839.0,643.0,Salaried,High School,Urban,2,1
+2023-05-25,55798.0,214451.0,501.0,Salaried,Graduate,Semiurban,0,0
+2025-03-02,118909.0,152750.0,805.0,Salaried,Postgraduate,Rural,3+,0
+2022-01-14,25027.0,324260.0,549.0,Salaried,High School,Urban,1,0
+2025-06-08,56217.0,256114.0,675.0,Self-employed,Graduate,Semiurban,1,1
+2024-01-30,133481.0,145002.0,845.0,Business,Graduate,Rural,1,1
+2022-07-16,19762.0,228104.0,756.0,Business,Graduate,Rural,0,0
+2023-02-28,24232.0,388562.0,497.0,Salaried,Graduate,Semiurban,1,0
+2024-02-15,38833.0,393257.0,784.0,Salaried,Graduate,Semiurban,0,1
+2023-03-18,36816.0,93658.0,539.0,Salaried,High School,Semiurban,0,1
+2022-06-02,76644.0,107265.0,,Self-employed,Graduate,Urban,2,0
+2024-07-21,55989.0,317494.0,710.0,Self-employed,Graduate,Semiurban,1,0
+2024-07-30,18468.0,101091.0,586.0,Self-employed,Graduate,Semiurban,0,0
+2022-06-16,,89757.0,637.0,Business,High School,Semiurban,0,1
+2023-01-29,,130772.0,523.0,Salaried,Postgraduate,Urban,0,0
+2022-12-08,98809.0,196635.0,846.0,Self-employed,High School,Rural,0,1
+2024-07-12,34712.0,155425.0,568.0,Self-employed,Postgraduate,Rural,1,0
+2024-10-19,34540.0,121449.0,594.0,Salaried,Graduate,Semiurban,0,0
+2024-10-14,66014.0,120163.0,666.0,Business,Postgraduate,Urban,3+,1
+2025-08-07,74579.0,118119.0,729.0,Salaried,High School,Urban,0,1
+2024-12-12,62721.0,109559.0,667.0,Business,High School,Semiurban,0,1
+2023-03-25,19398.0,454401.0,667.0,Self-employed,Graduate,Urban,3+,0
+2022-05-31,65902.0,186070.0,696.0,Salaried,High School,Semiurban,0,1
+2024-05-10,27754.0,242569.0,798.0,,High School,Rural,1,0
+2025-07-06,55793.0,130603.0,626.0,Salaried,Graduate,Rural,3+,1
+2025-09-27,,149690.0,788.0,Self-employed,Postgraduate,Rural,3+,0
+2022-11-19,62660.0,118054.0,771.0,Self-employed,High School,Semiurban,2,1
+2022-11-28,31457.0,50000.0,836.0,Self-employed,Postgraduate,Semiurban,0,0
+2022-02-22,24211.0,87544.0,,Business,Postgraduate,Semiurban,1,0
+2022-07-17,72591.0,72058.0,776.0,Salaried,Postgraduate,Semiurban,3+,1
+2024-02-16,55989.0,59136.0,571.0,Salaried,Graduate,Semiurban,3+,0
+2024-02-05,,95043.0,767.0,Salaried,Graduate,Urban,0,0
+2023-06-04,108896.0,295443.0,753.0,Salaried,Graduate,Urban,1,1
+2023-03-10,38470.0,159533.0,587.0,Salaried,Graduate,Semiurban,0,0
+2025-03-07,49894.0,290905.0,731.0,Salaried,Postgraduate,Semiurban,0,0
+2023-10-07,56835.0,195818.0,573.0,Salaried,High School,Semiurban,2,0
+2025-02-05,34863.0,231457.0,674.0,Salaried,Graduate,Semiurban,0,0
+2025-09-10,63521.0,108510.0,775.0,Business,High School,Semiurban,0,0
+2023-03-20,36556.0,206030.0,549.0,Salaried,Postgraduate,Semiurban,0,0
+2022-10-11,39089.0,225917.0,605.0,Business,Graduate,Urban,1,0
+2025-08-27,,125556.0,775.0,Salaried,Graduate,Urban,0,0
+2024-06-07,27658.0,209356.0,648.0,Salaried,Postgraduate,Rural,1,0
+2023-02-12,18000.0,209984.0,836.0,Salaried,Postgraduate,Semiurban,0,0
+2024-05-20,118897.0,127096.0,482.0,Salaried,High School,Urban,3+,1
+2023-12-23,199213.0,98199.0,747.0,Salaried,Postgraduate,Rural,0,1
+2025-06-21,39226.0,95525.0,782.0,Salaried,Postgraduate,Urban,1,1
+2022-12-25,18000.0,169215.0,,Salaried,High School,Rural,0,1
+2025-10-19,41325.0,188557.0,538.0,Salaried,Postgraduate,Semiurban,0,0
+2025-08-03,41881.0,113933.0,,,Graduate,Semiurban,0,0
+2022-09-10,44159.0,164714.0,625.0,Salaried,Graduate,Rural,0,1
+2022-08-19,26573.0,210395.0,,Self-employed,Graduate,Urban,0,0
+2024-01-17,67424.0,214955.0,611.0,Salaried,Graduate,Semiurban,1,1
+2022-03-04,65413.0,327206.0,716.0,Business,High School,Urban,2,0
+2023-02-23,21549.0,289133.0,724.0,Self-employed,High School,Semiurban,0,1
+2023-09-02,72010.0,103717.0,655.0,Business,High School,Urban,1,1
+2025-09-19,151596.0,347185.0,,Self-employed,Graduate,Urban,1,0
+2025-10-21,53883.0,128163.0,846.0,Salaried,Graduate,Semiurban,0,0
+2022-08-01,40720.0,260457.0,562.0,Salaried,High School,Rural,0,0
+2025-06-02,45338.0,167811.0,514.0,Salaried,Graduate,Urban,0,0
+2022-05-08,68761.0,135203.0,,Self-employed,Graduate,Semiurban,0,0
+2024-11-14,18923.0,72152.0,632.0,Self-employed,Graduate,Urban,1,0
+2025-03-29,53660.0,150662.0,708.0,Salaried,Postgraduate,Semiurban,3+,0
+2025-06-01,39547.0,80683.0,804.0,Business,Graduate,Semiurban,3+,0
+2022-11-09,135443.0,251522.0,516.0,Salaried,Postgraduate,Rural,3+,0
+2025-06-04,44543.0,322080.0,585.0,Self-employed,High School,Urban,1,0
+2022-06-12,122680.0,113708.0,671.0,Self-employed,Graduate,Urban,0,1
+2023-12-28,26714.0,186444.0,772.0,Salaried,Postgraduate,Rural,0,0
+2023-10-20,67710.0,117427.0,702.0,Self-employed,Postgraduate,Urban,0,1
+2023-03-19,58435.0,122661.0,622.0,Self-employed,Graduate,Urban,0,1
+2022-01-31,30395.0,230619.0,706.0,Salaried,Graduate,Rural,0,1
+2024-12-16,54045.0,159957.0,843.0,Salaried,Graduate,Rural,1,1
+2023-04-15,95500.0,356055.0,658.0,Salaried,Graduate,Urban,0,1
+2024-07-15,41024.0,131006.0,807.0,Self-employed,Postgraduate,Urban,0,1
+2023-07-29,19330.0,255174.0,769.0,Salaried,Postgraduate,Rural,2,1
+2023-06-08,48550.0,170048.0,591.0,Business,Graduate,Urban,0,1
+2025-05-25,29842.0,232838.0,572.0,Business,,Semiurban,3+,0
+2022-05-13,40608.0,133090.0,765.0,Salaried,Graduate,Urban,0,0
+2024-10-28,46870.0,159165.0,556.0,Salaried,High School,Urban,1,1
+2024-11-11,19185.0,154512.0,,Self-employed,High School,Urban,0,0
+2023-06-16,20159.0,111723.0,567.0,Self-employed,Graduate,Semiurban,1,1
+2023-01-03,63904.0,219243.0,704.0,Salaried,Graduate,Semiurban,0,0
+2022-01-08,36772.0,218079.0,589.0,Salaried,High School,Semiurban,0,0
+2025-08-04,18000.0,212586.0,724.0,Salaried,High School,Rural,1,0
+2025-08-19,75483.0,325018.0,826.0,Business,,Urban,0,0
+2022-12-04,56943.0,312452.0,787.0,Salaried,Postgraduate,Rural,0,1
+2022-02-14,33103.0,137486.0,831.0,Business,Graduate,Semiurban,3+,0
+2022-06-21,23760.0,192504.0,489.0,Salaried,High School,Rural,0,0
+2022-04-05,77629.0,122931.0,648.0,Business,High School,Semiurban,1,0
+2025-03-09,59406.0,164474.0,561.0,Salaried,Graduate,Rural,1,1
+2025-06-02,181758.0,124258.0,820.0,Salaried,Graduate,Urban,0,1
+2022-08-03,61766.0,337402.0,,Business,Graduate,Urban,1,0
+2024-11-11,60672.0,191696.0,598.0,Business,Graduate,Rural,0,0
+2022-09-08,44721.0,147545.0,689.0,Salaried,Postgraduate,Urban,2,0
+2023-05-30,76820.0,278487.0,704.0,Salaried,Graduate,Urban,0,1
+2024-04-19,69134.0,61281.0,663.0,Salaried,Graduate,Semiurban,0,0
+2024-10-04,97582.0,65753.0,655.0,Salaried,High School,Urban,0,1
+2025-05-09,36801.0,232845.0,500.0,Salaried,Postgraduate,Semiurban,3+,0
+2022-03-04,38581.0,167244.0,647.0,Business,Postgraduate,Rural,2,0
+2022-10-03,37665.0,182171.0,609.0,Salaried,,Semiurban,3+,0
+2023-01-28,75731.0,89601.0,783.0,Self-employed,Graduate,Rural,2,1
+2023-03-11,111760.0,161062.0,,Salaried,High School,Urban,2,0
+2025-10-29,38087.0,400945.0,758.0,Salaried,Postgraduate,Urban,1,1
+2024-12-24,38808.0,235836.0,491.0,Self-employed,Graduate,Urban,3+,1
+2023-03-25,58264.0,175671.0,792.0,Salaried,High School,Semiurban,1,1
+2025-09-22,42823.0,133576.0,627.0,Self-employed,Graduate,Semiurban,0,0
+2023-12-01,82754.0,136277.0,634.0,Salaried,Graduate,Urban,2,0
+2023-12-03,18000.0,62434.0,830.0,Business,Postgraduate,Rural,1,0
+2023-08-31,31111.0,182762.0,801.0,Self-employed,Graduate,Rural,0,0
+2022-07-21,,238105.0,498.0,Business,Graduate,Semiurban,1,0
+2025-08-01,18000.0,80095.0,613.0,Salaried,Graduate,Semiurban,0,0
+2022-01-20,28854.0,120857.0,758.0,Salaried,Graduate,Semiurban,2,1
+2022-09-01,29634.0,96678.0,679.0,Salaried,Graduate,Rural,0,1
+2022-11-18,43888.0,105408.0,575.0,Salaried,High School,Semiurban,2,1
+2023-01-27,90412.0,166719.0,674.0,Salaried,Postgraduate,Semiurban,1,0
+2022-07-04,,63705.0,801.0,Salaried,Graduate,Rural,2,1
+2022-01-26,27807.0,214577.0,562.0,Salaried,Graduate,Rural,0,0
+2024-08-06,,228487.0,756.0,Salaried,High School,Semiurban,3+,0
+2025-09-19,87295.0,145365.0,752.0,Salaried,High School,Urban,1,1
+2022-06-20,28659.0,53299.0,808.0,Salaried,Graduate,Semiurban,0,0
+2023-02-20,29708.0,103944.0,590.0,Salaried,High School,Urban,0,0
+2023-12-10,66649.0,283454.0,560.0,Self-employed,High School,Urban,0,0
+2025-07-22,43397.0,50000.0,683.0,Salaried,Postgraduate,Semiurban,0,1
+2024-08-29,69991.0,139193.0,677.0,Salaried,Graduate,Urban,2,0
+2024-12-08,48654.0,95702.0,631.0,Salaried,Graduate,Urban,3+,1
+2024-03-24,72108.0,233761.0,769.0,Self-employed,Graduate,Semiurban,2,0
+2023-08-07,27742.0,120114.0,776.0,,Postgraduate,Rural,1,0
+2022-10-07,48696.0,195200.0,571.0,Self-employed,Graduate,Rural,1,0
+2025-04-25,43657.0,209915.0,775.0,Business,Postgraduate,Urban,2,0
+2025-01-30,25116.0,371871.0,565.0,Salaried,Postgraduate,Urban,2,0
+2022-02-05,20746.0,148550.0,631.0,Business,Graduate,Urban,0,1
+2024-09-28,71479.0,192764.0,490.0,Self-employed,Graduate,Urban,3+,0
+2022-04-29,40416.0,83427.0,606.0,Salaried,Graduate,Rural,1,0
+2024-10-31,27938.0,278086.0,835.0,Salaried,Graduate,Urban,2,0
+2025-03-02,46495.0,115586.0,644.0,Self-employed,Graduate,Semiurban,3+,0
+2022-07-03,91164.0,126457.0,743.0,,Graduate,Urban,2,0
+2023-08-31,18000.0,161133.0,520.0,Salaried,Graduate,Rural,0,0
+2022-06-23,21522.0,80556.0,715.0,Salaried,High School,Semiurban,1,0
+2024-03-05,29508.0,180403.0,617.0,Self-employed,Graduate,Urban,0,0
+2025-07-22,109497.0,251541.0,,Salaried,High School,Urban,2,1
+2022-04-24,57264.0,185687.0,824.0,Self-employed,Graduate,Urban,0,1
+2023-07-11,74759.0,79618.0,677.0,Salaried,Graduate,Semiurban,2,0
+2025-09-24,26184.0,153935.0,518.0,Self-employed,Postgraduate,Semiurban,3+,0
+2023-02-26,26483.0,227274.0,656.0,Business,High School,Urban,0,0
+2022-07-05,62711.0,69906.0,525.0,Self-employed,Graduate,Semiurban,1,0
+2023-11-16,50617.0,100344.0,646.0,Self-employed,Graduate,Semiurban,2,0
+2023-12-13,,241457.0,502.0,Self-employed,High School,Semiurban,1,0
+2024-07-17,44213.0,183789.0,717.0,Self-employed,High School,Semiurban,0,0
+2023-03-16,57124.0,195905.0,595.0,Business,High School,Semiurban,0,1
+2025-08-30,53475.0,375785.0,554.0,Salaried,High School,Semiurban,1,0
+2023-12-31,75190.0,200958.0,486.0,Self-employed,Graduate,Urban,2,0
+2023-02-06,76409.0,218830.0,809.0,Salaried,Graduate,Urban,1,1
+2025-09-06,20112.0,551190.0,790.0,Business,Graduate,Urban,0,0
+2025-07-18,18000.0,147826.0,781.0,Self-employed,High School,Semiurban,1,1
+2023-11-30,85047.0,113658.0,501.0,Salaried,High School,Semiurban,0,1
+2022-02-04,,197305.0,609.0,Salaried,High School,Urban,0,1
+2024-04-15,27964.0,198302.0,840.0,Salaried,Graduate,Urban,2,1
+2024-02-17,18000.0,128409.0,694.0,Self-employed,Graduate,Semiurban,0,0
+2022-07-27,51765.0,102275.0,527.0,Salaried,Graduate,Urban,1,0
+2024-06-06,81794.0,460206.0,532.0,Salaried,High School,Urban,3+,0
+2025-03-23,131752.0,188543.0,577.0,Business,High School,Urban,1,1
+2022-05-29,65118.0,117063.0,840.0,Self-employed,Postgraduate,Urban,1,1
+2024-10-09,39957.0,245774.0,542.0,Salaried,,Rural,0,0
+2022-07-16,29995.0,154954.0,814.0,Salaried,High School,Semiurban,0,0
+2024-11-14,49331.0,145249.0,731.0,Business,High School,Semiurban,0,0
+2023-08-10,41581.0,209614.0,822.0,Self-employed,Postgraduate,Rural,2,1
+2022-01-10,28049.0,91003.0,786.0,Self-employed,Graduate,Urban,2,1
+2025-09-14,151269.0,190743.0,603.0,Salaried,Graduate,Urban,0,1
+2022-08-21,130855.0,384935.0,787.0,,Postgraduate,Rural,0,1
+2024-04-14,91567.0,200743.0,542.0,Salaried,,Urban,0,0
+2022-09-12,29541.0,137407.0,587.0,Self-employed,Postgraduate,Urban,1,0
+2025-07-30,78453.0,129547.0,558.0,Salaried,High School,Urban,1,0
+2024-10-30,69689.0,135313.0,529.0,Salaried,Graduate,Semiurban,2,0
+2025-01-31,62530.0,145178.0,513.0,Self-employed,Graduate,Urban,3+,0
+2023-08-28,97472.0,137309.0,549.0,Business,Graduate,Semiurban,0,0
+2023-10-17,69526.0,245816.0,524.0,,Postgraduate,Semiurban,2,0
+2024-06-07,73645.0,74612.0,621.0,Salaried,High School,Rural,1,1
+2025-01-03,69585.0,239881.0,506.0,Salaried,Postgraduate,Urban,0,0
+2025-03-31,59127.0,137193.0,,Salaried,Graduate,Urban,3+,0
+2022-01-25,18380.0,192842.0,847.0,Salaried,Graduate,Semiurban,0,0
+2024-07-17,51328.0,98013.0,512.0,Salaried,Postgraduate,Semiurban,2,0
+2022-06-02,36102.0,295932.0,507.0,Salaried,High School,Urban,2,0
+2023-02-08,24248.0,285083.0,491.0,Self-employed,Postgraduate,Urban,3+,0
+2025-03-07,123624.0,250651.0,529.0,Business,Graduate,Semiurban,1,0
+2022-12-17,126874.0,82319.0,675.0,Business,Graduate,Urban,0,1
+2025-01-20,103525.0,236358.0,786.0,Salaried,High School,Urban,2,1
+2023-10-11,56408.0,195279.0,752.0,Salaried,Graduate,Urban,2,1
+2022-11-22,103037.0,79034.0,695.0,Salaried,Graduate,Urban,1,1
+2023-04-13,49347.0,160985.0,511.0,Salaried,Graduate,Urban,2,1
+2024-01-14,54805.0,191768.0,767.0,Salaried,High School,Urban,0,1
+2024-12-07,26865.0,209030.0,,Salaried,High School,Urban,1,0
+2024-04-28,60983.0,176269.0,714.0,Self-employed,Postgraduate,Rural,3+,1
+2025-07-30,50676.0,185545.0,631.0,Salaried,High School,Semiurban,0,0
+2025-04-29,23946.0,315882.0,807.0,Business,Graduate,Urban,1,0
+2024-11-20,47660.0,282580.0,594.0,Salaried,Postgraduate,Semiurban,3+,0
+2024-04-24,46918.0,50000.0,716.0,,High School,Urban,2,0
+2023-02-10,131750.0,141090.0,643.0,Salaried,High School,Rural,3+,1
+2023-08-01,80163.0,151132.0,,Salaried,Graduate,Semiurban,1,1
+2022-06-16,49330.0,73980.0,828.0,Salaried,High School,Semiurban,3+,1
+2023-06-08,56209.0,169801.0,744.0,Business,Graduate,Semiurban,0,1
+2025-07-21,50227.0,285484.0,633.0,Salaried,Graduate,Rural,1,0
+2023-08-20,43844.0,99812.0,645.0,Salaried,,Rural,1,0
+2022-06-09,27029.0,189355.0,741.0,Self-employed,Graduate,Urban,2,1
+2024-07-01,45113.0,107783.0,608.0,Salaried,Graduate,Semiurban,3+,0
+2025-09-09,32521.0,120287.0,542.0,Self-employed,Graduate,Rural,2,0
+2025-04-29,24645.0,316420.0,653.0,Salaried,High School,Rural,1,0
+2023-01-19,64937.0,127497.0,505.0,Self-employed,Graduate,Semiurban,1,0
+2023-09-28,60791.0,200385.0,542.0,Salaried,Postgraduate,Rural,1,0
+2024-01-14,18349.0,70119.0,636.0,Salaried,Graduate,Urban,1,0
+2022-12-13,45822.0,376263.0,775.0,Self-employed,Graduate,Urban,0,0
+2023-01-12,84765.0,213458.0,769.0,Business,Graduate,Rural,1,0
+2022-11-28,,149923.0,576.0,Salaried,High School,Semiurban,3+,0
+2025-10-24,86181.0,210870.0,636.0,Self-employed,High School,Rural,2,0
+2024-11-10,50081.0,86300.0,536.0,Salaried,High School,Semiurban,2,0
+2025-03-23,30799.0,277101.0,760.0,Salaried,Postgraduate,Urban,1,0
+2025-02-17,27010.0,140675.0,,Salaried,High School,Semiurban,1,1
+2025-09-04,59251.0,148475.0,776.0,Self-employed,Postgraduate,Urban,0,1
+2022-05-28,60392.0,130451.0,792.0,Salaried,High School,Rural,1,1
+2025-05-19,99512.0,125330.0,735.0,,Graduate,Semiurban,1,1
+2022-04-04,,222482.0,602.0,Salaried,Graduate,Semiurban,0,1
+2023-10-28,45582.0,182619.0,833.0,Business,,Semiurban,0,0
+2024-04-12,24728.0,218226.0,734.0,Self-employed,Postgraduate,Urban,2,1
+2023-05-17,41130.0,162112.0,719.0,Salaried,Postgraduate,Rural,1,1
+2022-07-24,55242.0,205036.0,797.0,Salaried,Postgraduate,Urban,1,0
+2022-09-27,43864.0,134796.0,807.0,Salaried,High School,Urban,0,1
+2025-02-28,35673.0,443911.0,508.0,Business,Postgraduate,Semiurban,1,0
+2023-03-23,56336.0,80373.0,807.0,Salaried,High School,Semiurban,1,0
+2023-03-11,37154.0,287053.0,763.0,Salaried,Postgraduate,Semiurban,1,1
+2025-07-16,34702.0,301209.0,556.0,Salaried,Graduate,Semiurban,1,1
+2022-07-21,58180.0,110916.0,594.0,Self-employed,Graduate,Urban,0,1
+2025-07-05,39297.0,443819.0,759.0,Salaried,High School,Semiurban,3+,1
+2025-07-13,56064.0,254733.0,560.0,Salaried,High School,Urban,0,1
+2024-04-17,56969.0,251957.0,647.0,Business,High School,Urban,1,0
+2022-08-20,26195.0,164820.0,735.0,Salaried,Postgraduate,Semiurban,0,0
+2022-08-07,37621.0,147598.0,721.0,,Postgraduate,Urban,1,0
+2023-02-03,108096.0,148118.0,817.0,Salaried,Postgraduate,Semiurban,0,1
+2024-03-19,25870.0,194024.0,521.0,Salaried,High School,Urban,3+,0
+2022-08-04,18000.0,305753.0,589.0,Business,Graduate,Rural,1,0
+2023-09-30,18000.0,176591.0,845.0,Self-employed,Graduate,Urban,2,1
+2022-06-11,49812.0,107996.0,691.0,Self-employed,Graduate,Urban,0,0
+2024-01-27,49862.0,235860.0,572.0,Salaried,Graduate,Urban,0,0
+2022-01-30,45950.0,246352.0,587.0,Salaried,Graduate,Semiurban,1,0
+2024-09-19,95588.0,218512.0,605.0,Salaried,Graduate,Urban,1,0
+2022-03-19,18000.0,227629.0,685.0,Salaried,High School,Semiurban,1,0
+2022-09-30,60947.0,144074.0,585.0,Salaried,Graduate,Urban,3+,0
+2022-09-02,115704.0,107147.0,710.0,Salaried,Graduate,Rural,2,1
+2025-03-09,,110119.0,,Salaried,High School,Semiurban,3+,1
+2022-03-16,39779.0,77967.0,706.0,Salaried,Postgraduate,Semiurban,0,0
+2023-08-24,,181068.0,537.0,Salaried,Graduate,Semiurban,2,0
+2024-04-07,29975.0,156756.0,711.0,Salaried,Postgraduate,Semiurban,1,0
+2023-12-24,40968.0,133520.0,823.0,Business,Graduate,Urban,1,0
+2024-08-11,107486.0,50000.0,530.0,Self-employed,Graduate,Semiurban,3+,1
+2025-01-29,134667.0,92847.0,601.0,Salaried,Graduate,Urban,2,1
+2023-07-06,40751.0,269515.0,737.0,Self-employed,Postgraduate,Rural,3+,0
+2025-03-05,139774.0,120682.0,709.0,Self-employed,Graduate,Urban,2,0
+2023-03-22,49989.0,191428.0,730.0,Salaried,Graduate,Urban,0,0
+2025-10-10,128609.0,87046.0,687.0,Salaried,High School,Semiurban,2,0
+2023-12-08,46569.0,310959.0,733.0,Salaried,Graduate,Urban,1,0
+2024-10-27,52685.0,152541.0,706.0,Salaried,High School,Urban,3+,0
+2025-05-10,59935.0,185446.0,507.0,Self-employed,High School,Urban,2,0
+2025-01-14,250000.0,463518.0,758.0,Business,,Semiurban,0,0
+2025-04-06,78292.0,322029.0,645.0,Salaried,Graduate,Semiurban,0,0
+2024-01-22,33223.0,141782.0,499.0,Self-employed,High School,Urban,0,0
+2022-03-02,83529.0,124623.0,631.0,Salaried,Graduate,Semiurban,1,1
+2023-11-22,40175.0,140576.0,641.0,Self-employed,Postgraduate,Urban,0,0
+2022-09-12,,204731.0,512.0,Self-employed,Postgraduate,Semiurban,2,0
+2025-05-29,80800.0,155228.0,849.0,Salaried,Graduate,Urban,1,1
+2022-11-28,49866.0,136235.0,562.0,Salaried,Graduate,Rural,2,0
+2022-11-16,57138.0,314970.0,602.0,Self-employed,Graduate,Rural,0,0
+2022-12-16,49399.0,154601.0,643.0,Business,Graduate,Urban,1,1
+2024-06-18,58990.0,458087.0,788.0,Salaried,Graduate,Urban,0,0
+2024-03-10,61928.0,169538.0,755.0,Salaried,High School,Urban,3+,1
+2025-08-21,18000.0,363449.0,766.0,Salaried,Postgraduate,Urban,0,1
+2023-08-06,70729.0,191146.0,,Self-employed,High School,Semiurban,0,1
+2023-01-31,28564.0,251031.0,793.0,Self-employed,,Semiurban,0,0
+2022-03-10,22175.0,117468.0,787.0,Self-employed,Graduate,Rural,2,0
+2022-01-10,,110836.0,652.0,Self-employed,High School,Semiurban,0,0
+2023-06-08,51338.0,200159.0,682.0,Business,Graduate,Rural,1,1
+2025-07-20,33476.0,253939.0,493.0,Self-employed,High School,Urban,2,0
+2024-01-04,77425.0,165730.0,762.0,Salaried,Postgraduate,Rural,2,1
+2025-06-04,23431.0,91229.0,836.0,Self-employed,Graduate,Rural,0,0
+2022-05-23,39190.0,88246.0,655.0,Salaried,High School,Rural,0,0
+2022-05-11,35537.0,85630.0,680.0,Salaried,High School,Rural,1,0
+2025-03-12,47781.0,73465.0,665.0,Business,,Rural,0,0
+2022-05-30,57147.0,170974.0,510.0,Self-employed,Graduate,Urban,2,0
+2022-03-14,28160.0,270025.0,709.0,Business,Postgraduate,Semiurban,0,1
+2023-07-20,73010.0,161775.0,747.0,,Postgraduate,Urban,1,1
+2025-07-18,50749.0,58854.0,824.0,Salaried,Graduate,Urban,0,1
+2024-08-23,18000.0,149366.0,824.0,Salaried,Graduate,Urban,1,1
+2022-05-19,,151258.0,662.0,Salaried,Graduate,Urban,0,0
+2025-03-17,48690.0,417984.0,,Salaried,Postgraduate,Semiurban,2,1
+2025-03-27,43411.0,84482.0,676.0,Salaried,High School,Rural,0,1
+2025-01-25,46310.0,136516.0,718.0,Salaried,Graduate,Semiurban,3+,0
+2025-06-17,48272.0,350682.0,703.0,Business,High School,Urban,2,0
+2022-12-02,55496.0,199285.0,850.0,Salaried,Graduate,Urban,0,1
+2025-10-03,82554.0,209712.0,753.0,Salaried,Graduate,Semiurban,0,0
+2023-03-25,26606.0,171367.0,524.0,Self-employed,,Semiurban,0,0
+2025-01-27,25730.0,188806.0,,Salaried,Graduate,Urban,0,0
+2024-03-22,26867.0,230943.0,632.0,Business,,Urban,0,0
+2024-12-27,57463.0,113066.0,671.0,Self-employed,High School,Semiurban,3+,0
+2024-05-28,97219.0,241621.0,728.0,Salaried,Graduate,Urban,1,0
+2024-06-18,38668.0,87741.0,658.0,Self-employed,Postgraduate,Urban,0,0
